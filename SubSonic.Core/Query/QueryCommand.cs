@@ -166,7 +166,7 @@ namespace SubSonic.Query
     /// </summary>
     public class QueryCommand
     {
-        private int commandTimeout = 60;
+        private int commandTimeout = 120; // increased for my project !
 
         /// <summary>
         /// 
